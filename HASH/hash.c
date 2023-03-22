@@ -1,6 +1,5 @@
 #include "hash.h"
 
-#include <stdint.h>
 #include <stdio.h>
 
 #define FNV_OFFSET 14695981039346656037UL
@@ -23,7 +22,7 @@ int main(int argc, char* argv[])
 {
     if(argc != 2)
     {
-        printf("Invalid input: requires exactly one string");
+        printf("Invalid input: requires exactly one string\n");
         return -1;
     }
 
